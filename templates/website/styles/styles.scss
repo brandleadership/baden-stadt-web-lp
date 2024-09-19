@@ -1,6 +1,6 @@
 @import '~@bsi-cx/design-standard-library-web/styles/styles.scss';
 
-$logoWidth: bsiProperty('logoWidth', 60px);
+$logoWidth: bsiProperty('logoWidth', 200px);
 $lg: bsiProperty('gridBreakpointLG', 940px);
 
 /*
@@ -35,16 +35,16 @@ $lg: bsiProperty('gridBreakpointLG', 940px);
     }
   }
 
-  @media (max-width: $lg - 1px) {
-    .navbar-nav .nav-item.dropdown .dropdown-menu {
-      display: block;
-      border: none;
-      padding: 0;
-      a.dropdown-item {
-        color: var(--bs-nav-link-color);
-      }
-    }
-  }
+  // @media (max-width: $lg - 1px) {
+  //   .navbar-nav .nav-item.dropdown .dropdown-menu {
+  //     display: block;
+  //     border: none;
+  //     padding: 0;
+  //     a.dropdown-item {
+  //       color: var(--bs-nav-link-color);
+  //     }
+  //   }
+  // }
 
   &.navbar-expand-lg .navbar-collapse {
     justify-content: space-between;

@@ -6,7 +6,7 @@ module.exports = {
   /*	                           Colors	                           */
   /* ============================================================= */
 
-  primaryColor: css.color('#16616d'),
+  primaryColor: css.color('#000000'),
   secondaryColor: css.color('#ff7d00'),
   darkColor: css.color('#383e42'),
   lightColor: css.color('#ffffff'),
@@ -66,7 +66,7 @@ module.exports = {
   logoAlignment: 'bsi-logo-align-left',
 
   /* ------------------------- Logo width ------------------------ */
-  logoWidth: '60px',
+  logoWidth: '201px',
 
 
   /* ============================================================= */
