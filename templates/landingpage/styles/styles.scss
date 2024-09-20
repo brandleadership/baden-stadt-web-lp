@@ -23,3 +23,20 @@ $logoWidth: bsiProperty('logoWidth', 200px);
     }
   }
 }
+.d-flex .bsi-column .bsi-text-primary-color {
+  color: black;
+}
+.d-flex .bsi-element-text-kkq2fq p,
+.d-flex .bsi-element-text-kkq2fq span,
+.d-flex .bsi-element-text-kkq2fq li {
+  color: black;
+}
+.d-flex .bsi-btn-element.bsi-btn-color-primary.bsi-btn-filled .btn {
+  border-color: #4e4e4e;
+  background-color: #4e4e4e;
+}
+.d-flex .bsi-btn-element.bsi-btn-color-primary.bsi-btn-filled .btn:hover {
+  color: #ffffff;
+    background-color: #000000;
+    border-color: #000000;
+}
